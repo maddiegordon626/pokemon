@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(3, 19, 19);
+}
+
+h1 {
+    color: lightskyblue;
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+
+
+nav ul li {
+    padding: 20px;
+}
+button {
+    padding: 20px;
+    margin: 20px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    background-color: lightblue;
+    visibility: visible;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-gap: 4rem;
+}
+
+main div {
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main div img {
+    width: 150px;
+    border: 5px solid rgb(235, 190, 43);
+    border-radius: 10px;
+}
+
+h3, h2, p {
+    margin: 2px;
+    color: rgb(235, 190, 43);
+}
+
+h2 {
+    font-size: 2rem;
+}
